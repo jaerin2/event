@@ -2,19 +2,16 @@ export default function handler(req, res) {
   const { serial } = req.query;
 
   const couponRedirects = {
-    "501840123": "https://granviastar.co.kr/VFREA523BAR01QP5",
-    "306236584": "https://granviastar.co.kr/OAWBQ195BAO42YQ1",
-    "205356356": "https://granviastar.co.kr/PVAQN014NAQ53WI0",
-    "102533233": "https://granviastar.co.kr/BAOVA502QFP14BA1",
-    "104589325": "https://granviastar.co.kr/QRPWV325ATB30QA2",
-    "103025932": "https://granviastar.co.kr/ASBFH925BOB62QP3",
-    "104012421": "https://granviastar.co.kr/BOAAP104NHK39RW4",
-    "102180421": "https://granviastar.co.kr/JBVOA402BQP10LZ5",
-    "104218214": "https://granviastar.co.kr/KAFAQ620YUO35CN6",
-    "109523889": "https://granviastar.co.kr/TRWQC052ALS50IR7",
-    "105298312": "https://granviastar.co.kr/VOBAQ520BWL60RI8",
-    "103250815": "https://granviastar.co.kr/DEQSL402XVB29QL9",
-    "100924523": "https://granviastar.co.kr/AOVDR602BMW49WL0"
+    "112408221": "https://granviastar.co.kr/FKAWO154BAQ67BP2",
+    "123984325": "https://granviastar.co.kr/AWBOF654PAQ21AZ1",
+    "130584212": "https://granviastar.co.kr/SBAOA947XVA11WV7",
+    "142156241": "https://granviastar.co.kr/JYTWE497VZA09AQ2",
+    "153289543": "https://granviastar.co.kr/SAVJQ848ZJE64AD6",
+    "161047214": "https://granviastar.co.kr/JDABZ948HDW09AQ4",
+    "173240832": "https://granviastar.co.kr/MKJFG489NSA94AY2",
+    "189823451": "https://granviastar.co.kr/KEROI945BAW46RM3",
+    "201248012": "https://granviastar.co.kr/UTTRS184NDA48ZC2",
+    "502184912": "https://granviastar.co.kr/JMRTD494ZJA06HW1"
   };
 
   if (serial && couponRedirects[serial]) {
